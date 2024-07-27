@@ -32,7 +32,7 @@ html {
     }
 
     #display{
-        border: 10px solid red;
+        border: solid;
         height: 30%;
         width: 97%;
         border-radius: 20px;
@@ -42,8 +42,7 @@ html {
         display: flex;
         justify-content: end;
         align-items: end;
-    
-    
+        font-size: 100px;
     }
 
     #buttonsbox{
@@ -58,7 +57,7 @@ html {
     }
 
 
-        
+    
 
 
     
