@@ -40,9 +40,28 @@ html {
         margin-bottom: 5px;
         background-color: white;
         display: flex;
+        flex-flow: column;
+        justify-content: end;
+        align-items: center;
+        font-size: 100px;
+    }
+
+    #upperDisplay{        
+        height: 30%;
+        width: 100%;
+        font-size: 25px;
+        display: flex;
+        justify-content: end;
+        margin: 5px;
+        
+       
+    }
+    #lowerDisplay{
+        height: 70%;
+        width: 100%;
+        display: flex;
         justify-content: end;
         align-items: end;
-        font-size: 100px;
     }
 
     #buttonsbox{
@@ -54,8 +73,41 @@ html {
         border-radius: 20px;
         display: flex;
         flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        
     }
 
+    .btn{
+        border: solid;
+        height: 18.5%;
+        width: 24%;
+        border-radius: 20%;
+        background-color: #2ce;
+        font-size: 40px;
+        font-style: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .btn#on{
+        background-color: orangered;
+    }
+    .btn#backspace{
+        background-color: #def;
+    }
+    .btn#clearDisplay{
+        background-color: #fad;
+    }
+    .btn:hover{
+        background-color: greenyellow;
+        transform: scaley(1.2);
+    }
+    .btn.start :hover{
+        background-color: greenyellow;
+        transform: scaley(1.2);
+    }
 
     
 
