@@ -7,34 +7,39 @@
     <link rel="stylesheet" href="calculator.css">
 </head>
 <body>
+    <div id="background">
     <div id="frame">
         <div id="display">
-            <div id="upperDisplay"></div>
-            <div id="lowerDisplay"></div>
+            <div id="upperDisplay" data-previous-operand></div>
+            <div class="pp"></div>
+            <div class="ii"></div>
+            <div id="lowerDisplay" data-current-operand></div>
         </div>
         
         <div id="buttonsbox">
-            <div class="btn start" id="on">On</div>
-            <div class="btn operator"  id="%">%</div>
-            <div class="btn clear"  id="clearDisplay">c</div>
-            <div class="btn backspace"  id="backspace"><=</div>
-            <div class="btn operator"  id="7">7</div>
-            <div class="btn " id="8">8</div>
-            <div class="btn " id="9">9</div>
-            <div class="btn operator"  id="/">/</div>
-            <div class="btn " id="4">4</div>
-            <div class="btn " id="5">5</div>
-            <div class="btn " id="6">6</div>
-            <div class="btn operator"  id="*">*</div>
-            <div class="btn " id="3">3</div>
-            <div class="btn " id="2">2</div>
-            <div class="btn " id="1">1</div>
-            <div class="btn " id=".">+</div>
-            <div class="btn operator"  id="=">.</div>
-            <div class="btn " id="0">0</div>
-            <div class="btn operator"  id="=">=</div>
-            <div class="btn operator"  id="-">-</div>
+            
+            
+            <button class="btn clear"      data-clear>Clear</button>
+            <button class="btn backspace"  data-backspace><=</button>
+            <button class="btn "           data-operator>/</button>
+            <button class="btn "           data-number>7</button>
+            <button class="btn "           data-number>8</button>
+            <button class="btn "           data-number>9</button>
+            <button class="btn "           data-operator>*</button>
+            <button class="btn "           data-number>4</button>
+            <button class="btn "           data-number>5</button>
+            <button class="btn "           data-number>6</button>
+            <button class="btn "           data-operator >+</button>
+            <button class="btn "           data-number>3</button>
+            <button class="btn "           data-number>2</button>
+            <button class="btn "           data-number>1</button>
+            <button class="btn "           data-operator>-</button>
+            <button class="btn "           data-number>.</button>
+            <button class="btn "           data-number>0</button>
+            <button class="btn eq"         data-equal>=</button>
+          
         
+        </div>
         </div>
         </div>
     </div>
