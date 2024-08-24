@@ -5,8 +5,8 @@ let Decimal = false;
 
 
 function updateDisplay(){
-  if (currentValue.length >= '5'){
-    mainDisplay.innerText = currentValue.slice(0,5)
+  if (currentValue.length >= '7'){
+    mainDisplay.innerText = currentValue.slice(0,7)
   }else(
     mainDisplay.innerText = currentValue
   )
