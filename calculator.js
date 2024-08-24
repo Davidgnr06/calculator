@@ -64,7 +64,7 @@ function operate(){
         return
   }
 
-  currentValue = result.toString().slice(0,5);
+  currentValue = result.toString().slice(0,7);
   previousValue = '';
   op = '';
   Decimal = currentValue.includes('.');
@@ -74,7 +74,7 @@ function operate(){
 
 
 function appendNumber(number){
-  if (currentValue.length >= 5 && number !== '.') return;
+  if (currentValue.length >= 7 && number !== '.') return;
   if(number === '.' && Decimal)return;
 
   if(number === '.'){
